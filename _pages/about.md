@@ -2,24 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Professor of Computational Imaging at <a href='https://wustl.edu/'>WashU</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: kamilov.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
+
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am the Director of Computational Imaging Group ([CIG](https://cigroup.wustl.edu/)) and an Associate Professor of Electrical & Systems Engineering ([ESE](https://ese.wustl.edu)) and Computer Science & Engineering ([CSE](https://cse.wustl.edu)) at the Washington University in St. Louis ([WashU](https://wustl.edu)). I am affiliated with the PhD program on [Imaging Science](https://engineering.wustl.edu/academics/programs/imaging-science) program. I was a Visiting Professor at the [ENS Paris](https://www.ens.psl.eu/en) in 2024 and a Visiting Faculty Researcher at [Google Research](https://research.google/) in 2023. I was a Research Scientist at Mitsubishi Electric Research Laboratories ([MERL](https://www.merl.com/)) in 2015-2017. I obtained my PhD in 2015 at EPFL, Switzerland. I was
+an Exchange Student at [CMU](https://www.cmu.edu/) in 2008, Visiting Student Researcher at [MIT](https://web.mit.edu/) in 2011, and Visiting Scholar at [Stanford University](https://www.stanford.edu/) in 2013.

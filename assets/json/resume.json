@@ -45,10 +45,19 @@
       "institution": "Carnegie Mellon University (CMU)",
       "location": "Pittsburgh, PA, USA",
       "url": "https://www.cmu.edu/",
-      "area": "Electrical and Computer Engineering (ECE)",
+      "area": "Electrical and Computer Engineering",
       "studyType": "Exchange Student",
       "startDate": "2007-08-01",
       "endDate": "2008-05-31"
+    },
+    {
+      "institution": "Stanford University",
+      "location": "Stanford, CA, USA",
+      "url": "https://www.stanford.edu/",
+      "area": "Information Systems Lab",
+      "studyType": "Visiting Student Researcher",
+      "startDate": "2013-04-01",
+      "endDate": "2013-08-31"
     }
   ],
   "work": [

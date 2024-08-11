@@ -7,3 +7,10 @@
 
 "Vision":
   color: "#009f36"
+
+"ICML":
+  url: https://icml.cc
+
+"MRM":
+  url: https://onlinelibrary.wiley.com/journal/15222594
+  color: "#00369f"

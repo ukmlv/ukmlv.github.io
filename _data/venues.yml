@@ -11,6 +11,48 @@
 "ICML":
   url: https://icml.cc
 
+"ICLR":
+  url: https://iclr.cc
+
+"NeurIPS":
+  url: https://neurips.cc
+
 "MRM":
   url: https://onlinelibrary.wiley.com/journal/15222594
   color: "#00369f"
+
+"OJSP":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782710
+  color: "#00369f"
+
+"TCI":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6745852
+  color: "#00369f"
+
+"SPM":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=79
+  color: "#00369f"
+
+"SPL":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97
+  color: "#00369f"
+
+"MedPhys":
+  url: https://aapm.onlinelibrary.wiley.com/journal/24734209
+  color: "#00369f"
+
+"TGRS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36
+  color: "#00369f"
+
+"NMR Biomed":
+  url: https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/10991492
+  color: "#00369f"
+
+"ISBI":
+  color: "#009f36"
+  url: https://biomedicalimaging.org
+
+"CAMSAP":
+  color: "#009f36"
+  url: https://camsap23.ig.umons.ac.be

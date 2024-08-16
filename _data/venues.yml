@@ -51,6 +51,10 @@
   url: https://www.itsoc.org/jsait
   color: "#1F257F"
 
+"JSTSP":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4200690
+  color: "#1F257F"
+
 "MedPhys":
   url: https://aapm.onlinelibrary.wiley.com/journal/24734209
   color: "#1F257F"
@@ -73,6 +77,10 @@
 
 "InvRad":
   url: https://journals.lww.com/investigativeradiology/pages/default.aspx
+  color: "#1F257F"
+
+"AdvPhoton":
+  url: https://www.spiedigitallibrary.org/journals/advanced-photonics#_=_
   color: "#1F257F"
 
 "ISBI":
@@ -98,3 +106,7 @@
 "ICCVW":
   color: "#3C47FF"
   url: https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings
+
+"MICCAIW":
+  color: "#3C47FF"
+  url: https://miccai.org/

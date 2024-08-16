@@ -71,13 +71,17 @@
   url: https://www.sciencedirect.com/journal/journal-of-the-mechanical-behavior-of-biomedical-materials
   color: "#1F257F"
 
+"InvRad":
+  url: https://journals.lww.com/investigativeradiology/pages/default.aspx
+  color: "#1F257F"
+
 "ISBI":
   color: "#3C47FF"
   url: https://biomedicalimaging.org
 
 "CAMSAP":
   color: "#3C47FF"
-  url: https://camsap23.ig.umons.ac.be
+  url: https://ieeexplore.ieee.org/xpl/conhome/1001691/all-proceedings
 
 "ICASSP":
   color: "#3C47FF"
@@ -90,3 +94,7 @@
 "Asilomar":
   color: "#3C47FF"
   url: https://www.asilomarsscconf.org
+
+"ICCVW":
+  color: "#3C47FF"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings

@@ -43,6 +43,18 @@
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97
   color: "#1F257F"
 
+"TIP":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83
+  color: "#1F257F"
+
+"TIT":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=18
+  color: "#1F257F"
+
+"TSP":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=78
+  color: "#1F257F"
+
 "TMI":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42
   color: "#1F257F"
@@ -61,6 +73,14 @@
 
 "TGRS":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36
+  color: "#1F257F"
+
+"Optica":
+  url: https://opg.optica.org/optica/home.cfm
+  color: "#1F257F"
+
+"JOSAA":
+  url: https://opg.optica.org/josaa/home.cfm
   color: "#1F257F"
 
 "NMR Biomed":
@@ -83,6 +103,10 @@
   url: https://www.spiedigitallibrary.org/journals/advanced-photonics#_=_
   color: "#1F257F"
 
+"OpEx":
+  url: https://opg.optica.org/oe/home.cfm
+  color: "#1F257F"
+
 "ISBI":
   color: "#3C47FF"
   url: https://biomedicalimaging.org
@@ -99,6 +123,26 @@
   color: "#3C47FF"
   url: http://ieeeicip.org
 
+"ISIT":
+  color: "#3C47FF"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000369/all-proceedings
+
+"CoSeRa":
+  color: "#3C47FF"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1810005/all-proceedings
+
+"ITW":
+  color: "#3C47FF"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000368/all-proceedings
+
+"IGARSS":
+  color: "#3C47FF"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000307/all-proceedings
+
+"SampTA":
+  color: "#3C47FF"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1807964/all-proceedings
+
 "Asilomar":
   color: "#3C47FF"
   url: https://www.asilomarsscconf.org
@@ -107,6 +151,30 @@
   color: "#3C47FF"
   url: https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings
 
+"ICMEW":
+  color: "#3C47FF"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1801805/all-proceedings
+
 "MICCAIW":
   color: "#3C47FF"
   url: https://miccai.org/
+
+"BASP":
+  color: "#3C47FF"
+  url: https://baspfrontiers.org
+
+"iTWIST":
+  color: "#3C47FF"
+  url: https://sites.google.com/view/itwist18
+
+"MATH":
+  color: "#3C47FF"
+  url: https://opg.optica.org/conference.cfm?meetingid=178
+
+"LSC":
+  color: "#3C47FF"
+  url: https://opg.optica.org/conference.cfm?meetingid=177
+
+"SPARS":
+  color: "#3C47FF"
+  url: https://www.google.com/search?q=Signal+Processing+with+Adaptive+Sparse+Structured+Representations+%28SPARS%29&sca_esv=41b22d2abb3efe70&sca_upv=1&ei=wYrCZtV86q6m1A-zzsnhDQ&ved=0ahUKEwiV4d7N3_-HAxVql4kEHTNnMtwQ4dUDCA8&uact=5&oq=Signal+Processing+with+Adaptive+Sparse+Structured+Representations+%28SPARS%29&gs_lp=Egxnd3Mtd2l6LXNlcnAiSVNpZ25hbCBQcm9jZXNzaW5nIHdpdGggQWRhcHRpdmUgU3BhcnNlIFN0cnVjdHVyZWQgUmVwcmVzZW50YXRpb25zIChTUEFSUylIujdQizBYgTVwAngAkAEAmAEAoAEAqgEAuAEDyAEA-AEC-AEBmAIAoAIAmAMAiAYBkgcAoAcA&sclient=gws-wiz-serp

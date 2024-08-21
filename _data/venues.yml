@@ -95,6 +95,10 @@
   url: https://www.sciencedirect.com/journal/journal-of-the-mechanical-behavior-of-biomedical-materials
   color: "#1F257F"
 
+"Placenta":
+  url: https://www.sciencedirect.com/journal/placenta
+  color: "#1F257F"
+
 "InvRad":
   url: https://journals.lww.com/investigativeradiology/pages/default.aspx
   color: "#1F257F"

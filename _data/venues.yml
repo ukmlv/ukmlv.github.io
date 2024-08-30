@@ -155,6 +155,10 @@
   color: "#3C47FF"
   url: https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings
 
+"WACV":
+  color: "#3C47FF"
+  url: https://ieeexplore.ieee.org/servlet/opac?punumber=10483279
+
 "ICMEW":
   color: "#3C47FF"
   url: https://ieeexplore.ieee.org/xpl/conhome/1801805/all-proceedings

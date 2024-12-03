@@ -111,6 +111,10 @@
   url: https://opg.optica.org/oe/home.cfm
   color: "#1F257F"
 
+"BPEX":
+  url: https://iopscience.iop.org/journal/2057-1976
+  color: "#1F257F"
+
 "ISBI":
   color: "#3C47FF"
   url: https://biomedicalimaging.org

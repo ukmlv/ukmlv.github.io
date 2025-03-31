@@ -17,6 +17,9 @@
 "NeurIPS":
   url: https://neurips.cc
 
+"CVPR":
+  url: https://cvpr.thecvf.com/
+
 "ICCV":
   url: https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings
 
@@ -79,6 +82,10 @@
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36
   color: "#1F257F"
 
+"TRPMS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433213
+  color: "#1F257F"
+
 "Optica":
   url: https://opg.optica.org/optica/home.cfm
   color: "#1F257F"
@@ -113,6 +120,10 @@
 
 "OpEx":
   url: https://opg.optica.org/oe/home.cfm
+  color: "#1F257F"
+
+"JMIV":
+  url: https://link.springer.com/journal/10851
   color: "#1F257F"
 
 "BPEX":

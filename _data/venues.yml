@@ -146,6 +146,10 @@
   color: "#3C47FF"
   url: http://ieeeicip.org
 
+"SSP":
+  color: "#3C47FF"
+  url: https://2025.ieeessp.org/
+
 "ISIT":
   color: "#3C47FF"
   url: https://ieeexplore.ieee.org/xpl/conhome/1000369/all-proceedings

@@ -1,0 +1,7 @@
+// Shrink profile image on small screens
+@media only screen and (max-width: 600px) {
+  .home .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}

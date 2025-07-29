@@ -102,6 +102,10 @@
   url: https://www.nature.com/natmachintell/
   color: "#1F257F"
 
+"Nature Comms":
+  url: https://www.nature.com/ncomms/
+  color: "#1F257F"
+
 "JMBBM":
   url: https://www.sciencedirect.com/journal/journal-of-the-mechanical-behavior-of-biomedical-materials
   color: "#1F257F"
@@ -120,6 +124,10 @@
 
 "OpEx":
   url: https://opg.optica.org/oe/home.cfm
+  color: "#1F257F"
+
+"EJNMMI Res":
+  url: https://ejnmmires.springeropen.com
   color: "#1F257F"
 
 "JMIV":

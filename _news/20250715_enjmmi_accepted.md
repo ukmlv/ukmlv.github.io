@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- [Advanced Quantification Pipeline Reveals New Spatial and Temporal Tumor Characteristics in Preclinical Multiple Myeloma](https://www.researchsquare.com/article/rs-6596974/v1) was accepted to [EJNMMI Research](https://ejnmmires.springeropen.com/).
+ [Advanced Quantification Pipeline Reveals New Spatial and Temporal Tumor Characteristics in Preclinical Multiple Myeloma](https://ejnmmires.springeropen.com/articles/10.1186/s13550-025-01291-x) was accepted to [EJNMMI Research](https://ejnmmires.springeropen.com/).

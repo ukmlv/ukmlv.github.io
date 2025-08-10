@@ -118,6 +118,10 @@
   url: https://journals.lww.com/investigativeradiology/pages/default.aspx
   color: "#1F257F"
 
+"MIA":
+  url: https://www.sciencedirect.com/journal/medical-image-analysis
+  color: "#1F257F"
+
 "AdvPhoton":
   url: https://www.spiedigitallibrary.org/journals/advanced-photonics#_=_
   color: "#1F257F"

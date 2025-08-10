@@ -1,0 +1,79 @@
+{%- assign is_current = person.current | default: false -%}
+{%- assign year = person.year -%}
+{%- assign badge_style = '' -%}
+{%- if person.type == 'phd' -%}
+  {%- assign badge_style = 'background-color:#303abf;color:#fff;' -%}
+{%- elsif person.type == 'postdoc' -%}
+  {%- assign badge_style = 'background-color:#ab66cc;color:#fff;' -%}
+{%- endif -%}
+
+{%- if person.website -%}
+<a href="{{ person.website }}" target="_blank" rel="noopener"
+   class="d-flex align-items-start mb-4 text-decoration-none text-reset w-100">
+  {% if person.photo %}
+    <img src="{{ '/assets/img/alumni/' | relative_url }}{{ person.photo }}"
+         alt="{{ person.name }}"
+         style="width:125px; height:125px; object-fit:cover; margin-right:25px;"
+         class="rounded-circle flex-shrink-0">
+  {% endif %}
+
+  <div class="flex-grow-1">
+    <h5 class="mb-1">{{ person.name }}</h5>
+
+    <div class="mb-2">
+      {% if person.type %}
+        <span class="badge text-uppercase" style="{{ badge_style }}">{{ person.type }}</span>
+      {% endif %}
+      {% if is_current == false and year %}
+        <span class="ms-2">{{ year }}</span>
+      {% endif %}
+    </div>
+
+    {%- if is_current and person.type == 'phd' and person.institution -%}
+      <p class="mb-1"><strong>Current:</strong> PhD Student, {{ person.institution }}</p>
+    {%- elsif is_current and person.type == 'postdoc' and person.institution -%}
+      <p class="mb-1"><strong>Current:</strong> Postdoc, {{ person.institution }}</p>
+    {%- elsif person.current_role -%}
+      <p class="mb-1"><strong>Current:</strong> {{ person.current_role }}</p>
+    {%- endif -%}
+
+    {%- if person.type == 'phd' and is_current == false and person.thesis -%}
+      <p class="mb-1"><strong>Thesis:</strong> {{ person.thesis }}</p>
+    {%- endif -%}
+  </div>
+</a>
+{%- else -%}
+<div class="d-flex align-items-start mb-4 w-100">
+  {% if person.photo %}
+    <img src="{{ '/assets/img/alumni/' | relative_url }}{{ person.photo }}"
+         alt="{{ person.name }}"
+         style="width:125px; height:125px; object-fit:cover; margin-right:25px;"
+         class="rounded-circle flex-shrink-0">
+  {% endif %}
+
+  <div class="flex-grow-1">
+    <h5 class="mb-1">{{ person.name }}</h5>
+
+    <div class="mb-2">
+      {% if person.type %}
+        <span class="badge text-uppercase" style="{{ badge_style }}">{{ person.type }}</span>
+      {% endif %}
+      {% if is_current == false and year %}
+        <span class="ms-2">{{ year }}</span>
+      {% endif %}
+    </div>
+
+    {%- if is_current and person.type == 'phd' and person.institution -%}
+      <p class="mb-1"><strong>Current:</strong> PhD Student, {{ person.institution }}</p>
+    {%- elsif is_current and person.type == 'postdoc' and person.institution -%}
+      <p class="mb-1"><strong>Current:</strong> Postdoc, {{ person.institution }}</p>
+    {%- elsif person.current_role -%}
+      <p class="mb-1"><strong>Current:</strong> {{ person.current_role }}</p>
+    {%- endif -%}
+
+    {%- if person.type == 'phd' and is_current == false and person.thesis -%}
+      <p class="mb-1"><strong>Thesis:</strong> {{ person.thesis }}</p>
+    {%- endif -%}
+  </div>
+</div>
+{%- endif -%}

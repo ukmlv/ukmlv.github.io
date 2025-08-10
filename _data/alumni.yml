@@ -1,0 +1,122 @@
+#-----------------------
+# Current PhD students
+#-----------------------
+
+# name: [mandatory]
+# type: phd [mandatory]
+# current: true [mandatory]
+# institution: [mandatory]
+# photo: [mandatory] (put in assets/img/alumni/)
+# website: [optional]
+# current_role: [optional] (override the default “PhD Student, Institution” line)
+
+- name: Shirin Shoushtari
+  type: phd
+  current: true
+  institution: WashU
+  photo: shirin-shoushtari.jpg
+  website: https://shirinsg.github.io/aboutme/
+
+- name: Yuyang Hu
+  type: phd
+  current: true
+  institution: WashU
+  photo: yuyang-hu.jpg
+  website: https://hu-yuyang.github.io
+
+- name: Edward Chandler
+  type: phd
+  current: true
+  institution: WashU
+  photo: edward-chandler.jpg
+  website: https://edchandler00.github.io/
+
+- name: Chicago Park
+  type: phd
+  current: true
+  institution: WashU
+  photo: chicago-park.jpg
+  website: https://chicagopark.github.io
+
+- name: Flora Sun
+  type: phd
+  current: true
+  institution: WashU
+  photo: flora-sun.jpg
+  website: https://flora-sun-zhixin.github.io
+
+- name: Junhao Hu
+  type: phd
+  current: true
+  institution: WashU
+  photo: junhao-hu.jpg
+  website: https://charles-hu.github.io/
+
+#-----------------------
+# Current Postdocs
+#-----------------------
+
+# name: [mandatory]
+# type: postdoc [mandatory]
+# current: true [mandatory]
+# institution: [mandatory]
+# photo: [mandatory] (put in assets/img/alumni, 125x125) 
+# website: [optional]
+# focus: [optional]
+# current_role: [optional] (override the default Postdoc, Institution” line)
+
+#-----------------------
+# PhD alumnus
+#-----------------------
+
+# name: [mandatory]
+# type: phd [mandatory]
+# year: [mandatory]
+# photo: [mandatory] (put in assets/img/alumni/)
+# website: [optional]
+# current_role: [optional] (override the default “PhD Student, Institution” line)
+# thesis: [optional]
+
+- name: Yu Sun
+  type: phd # phd or postdoc
+  photo: yu-sun.jpg           # put in assets/img/alumni/
+  year: 2022
+  thesis: Integrating Physical Models and Deep Priors for Computational Imaging
+  current_role: Assistant Professor, Johns Hopkins University
+  website: https://sunyumark.github.io/
+
+- name: Xiaojian Xu
+  type: phd
+  photo: xiaojian-xu.jpg           
+  year: 2022
+  thesis: Model-based Deep Learning for Computational Imaging
+  current_role: AI Research Scientist, GE HealthCare
+  website: https://xuxiaojian.github.io
+
+- name: Jiaming Liu
+  type: phd
+  photo: jiaming-liu.jpg           
+  year: 2024
+  thesis: Learning-based Artifacts Removal Priors for Computational Imaging
+  current_role: Postdoc, Stanford University
+  website: https://jiamingliu-jeremy.github.io
+
+- name: Weijie Gan
+  type: phd
+  photo: weijie-gan.jpg           
+  year: 2025
+  thesis: Computational Imaging under Incomplete Information
+  # current_role: Postdoc, Stanford University
+  website: https://wjgancn.github.io
+
+#-----------------------
+# Postdoc alumnus
+#-----------------------
+
+# name: [mandatory]
+# type: postdoc [mandatory]
+# photo: [mandatory] (put in assets/img/alumni, 125x125) 
+# website: [optional]
+# year: [optional]
+# current_role: [optional] (override the default Postdoc, Institution” line)
+# focus: [optional]

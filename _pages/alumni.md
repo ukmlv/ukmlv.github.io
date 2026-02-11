@@ -2,7 +2,7 @@
 layout: page
 title: alumni
 permalink: /alumni/
-description: My PhD Students and Postdocs
+description: My current and former PhD students and postdocs
 nav: true
 nav_order: 3
 ---

@@ -17,26 +17,26 @@
   photo: shirin-shoushtari.jpg
   website: https://shirinsg.github.io/aboutme/
 
-- name: Yuyang Hu
-  type: phd
-  current: true
-  institution: WashU
-  photo: yuyang-hu.jpg
-  website: https://hu-yuyang.github.io
-
 - name: Edward Chandler
   type: phd
   current: true
-  institution: WashU
+  institution: UW-Madison
   photo: edward-chandler.jpg
   website: https://edchandler00.github.io/
 
 - name: Chicago Park
   type: phd
   current: true
-  institution: WashU
+  institution: UW-Madison
   photo: chicago-park.jpg
   website: https://chicagopark.github.io
+
+- name: Xiao Shi
+  type: phd
+  current: true
+  institution: UW-Madison
+  photo: xiao-shi.jpg
+  website: https://xiaoshi2610.github.io
 
 - name: Flora Sun
   type: phd
@@ -106,8 +106,16 @@
   photo: weijie-gan.jpg           
   year: 2025
   thesis: Computational Imaging under Incomplete Information
-  # current_role: Postdoc, Stanford University
+  current_role: Advanced Senior AI Research Scientist, Accenture
   website: https://wjgancn.github.io
+
+- name: Yuyang Hu
+  type: phd
+  photo: yuyang-hu.jpg
+  year: 2026
+  thesis: Inference-Time Scaling in Computational Imaging
+  current_role: Research Scientist, Google
+  website: https://hu-yuyang.github.io
 
 #-----------------------
 # Postdoc alumnus

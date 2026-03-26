@@ -190,6 +190,10 @@
   color: "#3C47FF"
   url: https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings
 
+"CVPRF":
+  color: "#3C47FF"
+  url: https://openreview.net/group?id=thecvf.com%2FCVPR%2F2026%2FFindings_Track&referrer=%5BHomepage%5D%28%2F%29#tab-recent-activity
+
 "WACV":
   color: "#3C47FF"
   url: https://ieeexplore.ieee.org/servlet/opac?punumber=10483279

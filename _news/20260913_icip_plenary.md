@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- I will be a plenary speaker at [IEEE ICIP 2026](https://2026.ieeeicip.org) that will take place in Tampere, Finland.
+ Plenary speaker at [IEEE ICIP 2026](https://2026.ieeeicip.org) that will take place in Tampere, Finland.

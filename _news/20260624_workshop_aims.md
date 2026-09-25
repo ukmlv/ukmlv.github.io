@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will speak at the [AI for Multimodal Science](https://aims-2026.vercel.app) workshop in San Diego, CA.
+Talk at the [AI for Multimodal Science](https://aims-2026.vercel.app) workshop in San Diego, CA.

@@ -103,7 +103,8 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: https://engineering.wisc.edu/directory/profile/ulugbek-kamilov # work page URL
-x_username: ukmlv # your X handle
+x_username: prof_kamilov # your X handle
+threads_username: prof_kamilov # your Threads handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 

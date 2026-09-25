@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper [NullFlow: One-Step Generative Reconstruction](https://arxiv.org/abs/2607.09892).
+New paper [NullFlow: One-Step Generative Reconstruction](https://arxiv.org/abs/2606.22696).

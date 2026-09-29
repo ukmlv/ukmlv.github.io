@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper [FIRM: Flow-based Imaging via\newline Regularized Minimization](https://arxiv.org/abs/2609.12953).
+New paper [FIRM: Flow-based Imaging via Regularized Minimization](https://wustl-cig.github.io/firmwww).

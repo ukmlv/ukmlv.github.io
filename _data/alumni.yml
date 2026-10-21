@@ -38,6 +38,13 @@
   photo: xiao-shi.jpg
   website: https://xiaoshi2610.github.io
 
+- name: Harry Mellow
+  type: phd
+  current: true
+  institution: UW-Madison
+  photo: harry-mellow.jpg
+  website: https://www.linkedin.com/in/harrymellow
+
 - name: Flora Sun
   type: phd
   current: true
@@ -98,7 +105,7 @@
   photo: jiaming-liu.jpg           
   year: 2024
   thesis: Learning-based Artifacts Removal Priors for Computational Imaging
-  current_role: Postdoc, Stanford University
+  current_role: Research Scientist, Uber
   website: https://jiamingliu-jeremy.github.io
 
 - name: Weijie Gan

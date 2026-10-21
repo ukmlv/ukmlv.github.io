@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Courses taught at the University of Wisconsin–Madison.
+description: Courses taught as a professor
 nav: true
 nav_order: 4
 ---

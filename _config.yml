@@ -104,7 +104,7 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: https://engineering.wisc.edu/directory/profile/ulugbek-kamilov # work page URL
+work_url: https://uw-cig.github.io/ # work page URL
 x_username: prof_kamilov # your X handle
 threads_username: prof_kamilov # your Threads handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)

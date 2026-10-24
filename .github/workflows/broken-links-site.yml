@@ -19,6 +19,13 @@ jobs:
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
+      - name: Install ImageMagick 🖼️
+        # jekyll-imagemagick needs it to generate the responsive WebP images (imagemagick: in _config.yml)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          convert -version
+          convert -list format | grep -i webp
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:

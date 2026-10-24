@@ -15,6 +15,22 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<section class="pub-section" id="preprints">
+<h2 class="pub-section-title">Preprints</h2>
+
+{% bibliography --query @article[abbr=arXiv] --group_by none %}
+
+</section>
+
+<section class="pub-section" id="published">
+<h2 class="pub-section-title">Published</h2>
+
+{% bibliography --query @*[abbr!=arXiv] %}
+
+</section>
+
+<section class="pub-section" id="theses">
+<!-- Add theses here when ready -->
+</section>
 
 </div>

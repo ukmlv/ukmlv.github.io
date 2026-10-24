@@ -1,6 +1,37 @@
 ---
 ---
-<div class="row">
+{% comment %}
+  data-category values:
+    preprint   — @article with abbr="arXiv"
+    journal    — @article with any other abbr
+    selective  — @inproceedings at a selective venue (selective: true in _data/venues.yml)
+    conference — all other @inproceedings
+    thesis     — @phdthesis / @mastersthesis / @thesis (for the Theses section)
+    data-award — "true" if the entry has an award field, "false" otherwise
+    @incollection is treated like @inproceedings. An abbr="arXiv" on a non-@article
+    entry is not a preprint: it is categorized by its type and listed under Published.
+    To add a new category: add the venue to _data/venues.yml with selective: true,
+    or add a new condition here and a matching filter button in assets/js/bibsearch.js
+{% endcomment %}
+{% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+{% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+{% assign entry_category = '' %}
+{% if entry.type == 'article' %}
+  {% if entry.abbr == 'arXiv' %}
+    {% assign entry_category = 'preprint' %}
+  {% else %}
+    {% assign entry_category = 'journal' %}
+  {% endif %}
+{% elsif proceedings contains entry.type %}
+  {% if entry.abbr and site.data.venues[entry.abbr].selective == true %}
+    {% assign entry_category = 'selective' %}
+  {% else %}
+    {% assign entry_category = 'conference' %}
+  {% endif %}
+{% elsif thesis contains entry.type %}
+  {% assign entry_category = 'thesis' %}
+{% endif %}
+<div class="row" data-category="{{ entry_category }}" data-award="{% if entry.award %}true{% else %}false{% endif %}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -146,8 +177,6 @@
     </div>
 
     <!-- Journal/Book title and date -->
-    {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
-    {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}

@@ -1,4 +1,14 @@
 {% if site.bib_search %}
   <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
   <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+  <!-- Filter buttons: hidden until bibsearch.js fills in the counts. data-filter matches data-category in _layouts/bib.liquid ("award" matches data-award). -->
+  <div id="pub-filters" class="pub-filters" role="group" aria-label="Filter publications by type" hidden>
+    <button type="button" class="pub-filter" data-filter="all" aria-pressed="true">All <span data-count></span></button>
+    <button type="button" class="pub-filter" data-filter="preprint" aria-pressed="false">Preprint <span data-count></span></button>
+    <button type="button" class="pub-filter" data-filter="journal" aria-pressed="false">Journal <span data-count></span></button>
+    <button type="button" class="pub-filter" data-filter="selective" aria-pressed="false">Selective Conference <span data-count></span></button>
+    <button type="button" class="pub-filter" data-filter="conference" aria-pressed="false">Conference <span data-count></span></button>
+    <button type="button" class="pub-filter" data-filter="award" aria-pressed="false">Awards <span data-count></span></button>
+  </div>
+  <p id="pub-status" class="pub-status" aria-live="polite" hidden></p>
 {% endif %}

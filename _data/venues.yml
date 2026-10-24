@@ -1,6 +1,10 @@
+# selective: true — marks a venue as a highly selective conference.
+# Currently applied to: NeurIPS, ICLR, ICML, CVPR, ECCV, ICCV.
+# Add selective: true to any new venue that meets this criterion.
+
 "arXiv":
   url: https://arxiv.org/
-  color: "#b31b1b"
+  color: "#828282"
 
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
@@ -14,21 +18,27 @@
 
 "ICML":
   url: https://icml.cc
+  selective: true
 
 "ICLR":
   url: https://iclr.cc
+  selective: true
 
 "NeurIPS":
   url: https://neurips.cc
+  selective: true
 
 "CVPR":
   url: https://cvpr.thecvf.com/
+  selective: true
 
 "ICCV":
   url: https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings
+  selective: true
 
 "ECCV":
   url: https://eccv.ecva.net/
+  selective: true
 
 "MRM":
   url: https://onlinelibrary.wiley.com/journal/15222594

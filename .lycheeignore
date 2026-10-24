@@ -1,0 +1,17 @@
+# Links excluded from the lychee link checker (one regex per line).
+# Used by .github/workflows/broken-links.yml and broken-links-site.yml.
+
+# Liquid tags ({{ ... }}) in template sources are only filled in at build time
+%7B%7B
+
+# These sites block automated requests (IEEE Xplore: HTTP 418, LinkedIn: HTTP 999); the links work in a browser
+^https?://ieeexplore\.ieee\.org/
+^https?://([a-z]+\.)?linkedin\.com/
+
+# These WashU sites share a server that sends an incomplete TLS certificate chain; browsers work around it, link checkers do not
+^https://(engineering|ese)\.washu\.edu/
+
+# Unreachable pages (connection times out) linked from older news items; update or remove these links when possible
+^https://wacv2025\.thecvf\.com/
+^https://intra\.ece\.ucr\.edu/~sasif
+^https://www\.lpens\.ens\.psl\.eu/giulio-biroli/

@@ -1,3 +1,4 @@
+---
 #-----------------------
 # Current PhD students
 #-----------------------
@@ -67,7 +68,7 @@
 # type: postdoc [mandatory]
 # current: true [mandatory]
 # institution: [mandatory]
-# photo: [mandatory] (put in assets/img/alumni, 125x125) 
+# photo: [mandatory] (put in assets/img/alumni, 125x125)
 # website: [optional]
 # focus: [optional]
 # current_role: [optional] (override the default Postdoc, Institution” line)
@@ -86,7 +87,7 @@
 
 - name: Yu Sun
   type: phd # phd or postdoc
-  photo: yu-sun.jpg           # put in assets/img/alumni/
+  photo: yu-sun.jpg # put in assets/img/alumni/
   year: 2022
   thesis: Integrating Physical Models and Deep Priors for Computational Imaging
   current_role: Assistant Professor, Johns Hopkins University
@@ -94,7 +95,7 @@
 
 - name: Xiaojian Xu
   type: phd
-  photo: xiaojian-xu.jpg           
+  photo: xiaojian-xu.jpg
   year: 2022
   thesis: Model-based Deep Learning for Computational Imaging
   current_role: AI Research Scientist, GE HealthCare
@@ -102,7 +103,7 @@
 
 - name: Jiaming Liu
   type: phd
-  photo: jiaming-liu.jpg           
+  photo: jiaming-liu.jpg
   year: 2024
   thesis: Learning-based Artifacts Removal Priors for Computational Imaging
   current_role: Research Scientist, Uber
@@ -110,7 +111,7 @@
 
 - name: Weijie Gan
   type: phd
-  photo: weijie-gan.jpg           
+  photo: weijie-gan.jpg
   year: 2025
   thesis: Computational Imaging under Incomplete Information
   current_role: Advanced Senior AI Research Scientist, Accenture
@@ -123,14 +124,13 @@
   thesis: Inference-Time Scaling in Computational Imaging
   current_role: Research Scientist, Google
   website: https://hu-yuyang.github.io
-
 #-----------------------
 # Postdoc alumnus
 #-----------------------
 
 # name: [mandatory]
 # type: postdoc [mandatory]
-# photo: [mandatory] (put in assets/img/alumni, 125x125) 
+# photo: [mandatory] (put in assets/img/alumni, 125x125)
 # website: [optional]
 # year: [optional]
 # current_role: [optional] (override the default Postdoc, Institution” line)

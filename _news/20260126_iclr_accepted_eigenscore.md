@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- [EigenScore: OOD Detection using Posterior Covariance in Diffusion Models](https://wustl-cig.github.io/eigenscorewww) was accepted to [ICLR 2026](https://iclr.cc).
+[EigenScore: OOD Detection using Posterior Covariance in Diffusion Models](https://wustl-cig.github.io/eigenscorewww) was accepted to [ICLR 2026](https://iclr.cc).

@@ -15,6 +15,7 @@ nav_order: 4
 {% unless current_semester == "" %}
 <br>
 {% endunless %}
+
 <h5 class="mt-4 mb-3">
 <span class="badge" style="background-color:#303abf;color:#fff;">{{ course.semester_id }}</span>
 </h5>

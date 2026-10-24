@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- New paper [ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Application to MRI Reconstruction](https://wustl-cig.github.io/adobiwww/).
+New paper [ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Application to MRI Reconstruction](https://wustl-cig.github.io/adobiwww/).

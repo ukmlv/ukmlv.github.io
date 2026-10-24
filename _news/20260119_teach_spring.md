@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- I am teaching [Matrix Methods in Machine Learning]() in Spring 2026 at UW-Madison.
+I am teaching [Matrix Methods in Machine Learning]() in Spring 2026 at UW-Madison.

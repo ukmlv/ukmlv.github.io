@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- New paper [Deep Parameter Interpolation for Scalar Conditioning](https://arxiv.org/abs/2511.21028).
+New paper [Deep Parameter Interpolation for Scalar Conditioning](https://arxiv.org/abs/2511.21028).

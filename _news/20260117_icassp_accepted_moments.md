@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- [Moments Matter: Posterior Recovery in Poisson Denoising via Log-Networks](https://arxiv.org/abs/2510.07199) was accepted to [ICASSP 2026](https://2026.ieeeicassp.org).
+[Moments Matter: Posterior Recovery in Poisson Denoising via Log-Networks](https://arxiv.org/abs/2510.07199) was accepted to [ICASSP 2026](https://2026.ieeeicassp.org).

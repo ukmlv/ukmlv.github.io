@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
-  <link rel="canonical" href="{{ site.url }}{{ page.redirect_to }}">
-  <script>
-    window.location.href = "{{ page.redirect_to }}";
-  </script>
-</head>
-<body>
-  <p>Redirecting to <a href="{{ page.redirect_to }}">{{ page.redirect_to }}</a>…</p>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.redirect_to }}" />
+    <script>
+      window.location.href = "{{ page.redirect_to }}";
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ page.redirect_to }}">{{ page.redirect_to }}</a>…</p>
+  </body>
 </html>

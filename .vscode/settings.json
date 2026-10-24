@@ -1,0 +1,30 @@
+{
+  // Format with Prettier on save, using the project's .prettierrc (same rules as .github/workflows/prettier.yml).
+  // Needs the Prettier extension (esbenp.prettier-vscode), a Liquid extension for .liquid files,
+  // and `npm install` once in this folder so the extension can load @shopify/prettier-plugin-liquid.
+  "prettier.requireConfig": true,
+  "[liquid]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}

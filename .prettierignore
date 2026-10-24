@@ -8,4 +8,8 @@ assets/js/search/*.js
 assets/plotly/demo.html
 lighthouse_results/**
 _posts/2015-10-20-math.md
+# Scheduled for deletion — do not format.
+assets/json/resume.json
+# Prettier would escape "R2*" as "R2\*", which shows up with the backslash in the site search
+_news/20250226_jmiv_accepted.md
 _sass/font-awesome/*.scss

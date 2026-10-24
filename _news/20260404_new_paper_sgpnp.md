@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- New paper [Stochastic Generative Plug-and-Play Priors](https://uw-cig.github.io/sgpnp_page).
+New paper [Stochastic Generative Plug-and-Play Priors](https://uw-cig.github.io/sgpnp_page).

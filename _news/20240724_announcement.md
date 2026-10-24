@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- New paper [CDDIP: Constrained Diffusion-Driven Deep Image Prior for Seismic Image Reconstruction](https://arxiv.org/abs/2407.17402).
+New paper [CDDIP: Constrained Diffusion-Driven Deep Image Prior for Seismic Image Reconstruction](https://arxiv.org/abs/2407.17402).

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- New paper [A Unified Framework for Multimodal Image Reconstruction and Synthesis using Denoising Diffusion Models](https://arxiv.org/abs/2602.08249).
+New paper [A Unified Framework for Multimodal Image Reconstruction and Synthesis using Denoising Diffusion Models](https://arxiv.org/abs/2602.08249).

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- [Stochastic Generative Plug-and-Play Priors](https://uw-cig.github.io/sgpnp_page) was accepted to [IEEE Transactions on Computational Imaging](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6745852).
+[Stochastic Generative Plug-and-Play Priors](https://uw-cig.github.io/sgpnp_page) was accepted to [IEEE Transactions on Computational Imaging](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6745852).

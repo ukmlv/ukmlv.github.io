@@ -1,0 +1,5 @@
+{
+  // Required for format-on-save (.vscode/settings.json) to work with Liquid files:
+  // Prettier does the formatting, and the Shopify Liquid extension makes VS Code recognize .liquid files.
+  "recommendations": ["esbenp.prettier-vscode", "Shopify.theme-check-vscode"]
+}

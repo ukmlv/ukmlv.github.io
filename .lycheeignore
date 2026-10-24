@@ -15,3 +15,7 @@
 ^https://wacv2025\.thecvf\.com/
 ^https://intra\.ece\.ucr\.edu/~sasif
 ^https://www\.lpens\.ens\.psl\.eu/giulio-biroli/
+
+# CIRM pages (linked from _news/20250929_cirm_talk.md) time out from GitHub Actions runners, though they load in a browser
+^https://www\.cirm-math\.com/$
+^https://conferences\.cirm-math\.fr/3349\.html$

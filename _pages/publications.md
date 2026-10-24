@@ -2,12 +2,14 @@
 layout: page
 permalink: /publications/
 title: publications
-description: A complete list is available on <a href='https://scholar.google.com/citations?user=3qYUSDwAAAAJ&hl=en'><b>Google Scholar</b></a>
+description: A list of my publications.
 nav: true
 nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
+
+A complete list is available on [Google Scholar](https://scholar.google.com/citations?user=3qYUSDwAAAAJ&hl=en).
 
 <!-- Bibsearch Feature -->
 

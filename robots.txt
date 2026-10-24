@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ukmlv.github.io/sitemap.xml
+Sitemap: https://kamilov.io/sitemap.xml

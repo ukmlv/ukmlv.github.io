@@ -1,5 +1,5 @@
 ---
 layout: redirected
 permalink: /alumni/
-redirect: /team/
+redirect_to: /team/
 ---
